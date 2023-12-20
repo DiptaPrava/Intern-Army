@@ -105,7 +105,7 @@ nav button{
         border-radius: 4px;
         font-weight: bolder;
         align-items: center;
-    }
+    } 
 
 .btn-red-sm{
     background-color: red;
@@ -135,22 +135,40 @@ nav button{
     color: white;
     justify-content: center;
     align-items: center;
-
-
 }
+@media screen and (max-width:1000px){
+    .first{
+        flex-wrap: wrap;
+    }
+   .hero-buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+   
+    
+} 
+    
+
 .secImg{
     position: relative;
 }
 .secImg img{
-    max-width: 500px;
-    position: relative;
-    z-index: 10;
+    
+        max-width: 369px;
+        position: relative;
+        z-index: 10;
+    
 }
 .secImg video{
-    max-width: 351px;
-    position: relative;
-    top: -291px;
-    right: -77px;
+    
+        max-width: 262px;
+        position: relative;
+        top: -218px;
+        right: -56px
+    
 }
 .first > div{
     display: flex;
@@ -240,9 +258,12 @@ input[type="radio"]{
 
 }
 video.video2{
-    max-width: 301px;
-    top: -336px;
-    right: -101px;
+    
+ max-width: 226px;
+    top: -246px;
+    right: -73px;
+
+    
 }
 
 footer{
